@@ -1,7 +1,7 @@
 {
   "name": "vue-ngn-states",
   "description": "A simple vuejs plugin thats list all the states in Nigeria",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "private": false,
   "author": {
     "name": "Julius Fasema",
@@ -11,14 +11,14 @@
 "bugs": "https://github.com/SamjuTheCoder/vue-ngn-states/issues",
 "keywords": ["states", "ngn", "vue", "nigeria", "javascript"],
 "license": "MIT",
-"files": [ "dist/*"],
+"files": [ "dist/"],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "build-library" : "vue-cli-service build --target lib --name vue-ngn-states ./src/install.js",
     "lint": "vue-cli-service lint"
   },
-  "main" : ".dist/vue-ngn-states.common.js",
+  "main" : "dist/vue-ngn-states.common.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"

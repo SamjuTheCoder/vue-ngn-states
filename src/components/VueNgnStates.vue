@@ -9,7 +9,7 @@
 
 <script>
   export default {
-    name: 'VueNgStates',
+    name: 'VueNgnStates',
 
     data: () => ({
 

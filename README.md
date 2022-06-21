@@ -2,23 +2,11 @@
 
 ## Project setup
 ```
-npm install
+npm install vue-ngn-states --save
 ```
 
-### Compiles and hot-reloads for development
+### Package usage
 ```
-npm run serve
+import VueNgnStates from 'vue-ngn-states';
+Vue.use(VueNgnStates)
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

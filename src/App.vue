@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import VueNgStates from './components/VueNgStates.vue'
+import VueNgnStates from './components/VueNgnStates.vue'
 
 export default {
   name: 'App',
   components: {
-    VueNgStates,
+    VueNgnStates,
   }
 }
 </script>
